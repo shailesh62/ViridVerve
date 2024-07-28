@@ -2,4 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.btn{
+    background-color: #baa287;
+    border: 0;
+    color: black;
+}
+.btn:hover{
+    background-color: #744231;
+    color: white;
+}
 
+.rounded-xl{
+    height: 20rem;
+}
