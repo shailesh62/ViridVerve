@@ -10,6 +10,9 @@ const HomePage = () => {
             <Link to="/shop">
                 <button className='btn btn-neutral m-10'>Shop Page</button>
             </Link>
+            <Link to="/about">
+                <button className='btn btn-neutral m-10'>About</button>
+            </Link>
         </div>
     )
 }
