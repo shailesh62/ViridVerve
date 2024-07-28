@@ -1,9 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Blog from "./components/BlogComponents/Blog";
-import BlogDetail from "./components/BlogComponents/BlogDetail";
-
-const App = () => {
+import Footer from "./components/Footer";
+function App() {
   return (
     <Router>
       <Routes>
