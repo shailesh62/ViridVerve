@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <div className="flex flex-wrap p-8 gap-10 ">
+    <div className="flex flex-wrap p-8 gap-10 justify-center ">
       <BlogCard id={1} src={"https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"The Future of Renewable Energy: Trends and Innovations"} />
       <BlogCard id={2} src={"https://images.pexels.com/photos/2990610/pexels-photo-2990610.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"Climate Change: Mitigation Strategies and Adaptation Measures"} />
       <BlogCard id={3} src={"https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"Sustainable Agriculture: Practices for a Greener Future"} />

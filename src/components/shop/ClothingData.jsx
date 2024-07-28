@@ -1,0 +1,77 @@
+// src/clothingData.js
+const clothingItems = [
+    {
+      id: 1,
+      name: 'Eco-Friendly Denim',
+      price: '$89.99',
+      reviews: '★★★★☆',
+      description: 'Denim made from organic cotton and recycled materials.',
+      image: 'https://images.pexels.com/photos/6770033/pexels-photo-6770033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 2,
+      name: 'Organic Cotton T-Shirts',
+      price: '$29.99',
+      reviews: '★★★★☆',
+      description: 'T-shirts made from 100% organic cotton.',
+      image: 'https://images.pexels.com/photos/7218419/pexels-photo-7218419.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+      id: 3,
+      name: 'Recycled Polyester Jackets',
+      price: '$129.99',
+      reviews: '★★★★☆',
+      description: 'Jackets made from recycled polyester fibers.',
+      image: 'https://images.pexels.com/photos/10378761/pexels-photo-10378761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 4,
+      name: 'Hemp Fabric Dresses',
+      price: '$79.99',
+      reviews: '★★★★☆',
+      description: 'Dresses crafted from sustainable hemp fabric.',
+      image: 'https://images.pexels.com/photos/9430488/pexels-photo-9430488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 5,
+      name: 'Hemp Fabric Dresses',
+      price: '$79.99',
+      reviews: '★★★★☆',
+      description: 'Dresses crafted from sustainable hemp fabric.',
+      image: 'https://images.pexels.com/photos/9430488/pexels-photo-9430488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 6,
+      name: 'Hemp Fabric Dresses',
+      price: '$79.99',
+      reviews: '★★★★☆',
+      description: 'Dresses crafted from sustainable hemp fabric.',
+      image: 'https://images.pexels.com/photos/9430488/pexels-photo-9430488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 7,
+      name: 'Hemp Fabric Dresses',
+      price: '$79.99',
+      reviews: '★★★★☆',
+      description: 'Dresses crafted from sustainable hemp fabric.',
+      image: 'https://images.pexels.com/photos/9430488/pexels-photo-9430488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 8,
+      name: 'Hemp Fabric Dresses',
+      price: '$79.99',
+      reviews: '★★★★☆',
+      description: 'Dresses crafted from sustainable hemp fabric.',
+      image: 'https://images.pexels.com/photos/9430488/pexels-photo-9430488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      id: 9,
+      name: 'Hemp Fabric Dresses',
+      price: '$79.99',
+      reviews: '★★★★☆',
+      description: 'Dresses crafted from sustainable hemp fabric.',
+      image: 'https://images.pexels.com/photos/9430488/pexels-photo-9430488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+  ];
+  
+  export default clothingItems;  
