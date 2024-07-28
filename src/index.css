@@ -2,12 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.btn{
+.btn, .buy-now{
     background-color: #baa287;
     border: 0;
-    color: black;
+    color: white;
 }
-.btn:hover{
+.btn:hover, .buy-now:hover{
     background-color: #744231;
     color: white;
 }
@@ -15,3 +15,89 @@
 .rounded-xl{
     height: 20rem;
 }
+
+/* src/styles/zoomEffect.css */
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 200%;
+  }
+  
+  .zoom-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .zoom-container.hovering .zoom-image {
+    opacity: 0;
+  }
+  
+  .fixed {
+    position: fixed;
+  }
+  
+  .inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bg-black {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .bg-opacity-75 {
+    background-opacity: 0.75;
+  }
+  
+  .max-w-full {
+    max-width: 100%;
+  }
+  
+  .max-h-full {
+    max-height: 100%;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
