@@ -1,16 +1,17 @@
+
 import React from 'react';
 import { TfiFacebook } from "react-icons/tfi";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaPinterestP } from "react-icons/fa";
 
-const footerClasses = "bg-card bg-[#C4A885] text-card-foreground container   p-8 text-white";
+const footerClasses = "mt-10  bg-card bg-[#C4A885] text-card-foreground container  p-8 text-white mx-auto";
 const linkClasses = "text-muted-foreground   hover:text-muted";
 
 const Footer = () => {
   return (
     <footer className={footerClasses}>
      
-      <div className="container  mx-auto pt-10 pb-11 px-44  flex flex-col md:flex-row ">
+      <div className="container  mx-auto pt-10 pb-11 px-4  flex flex-col md:flex-row ">
         
         <FooterSection title="THE ECO WARRIOR">
           <ul className="mt-4  space-y-5">
@@ -67,3 +68,14 @@ const FooterSection = ({ title, children }) => {
 };
 
 export default Footer;
+
+
+
+
+
+
+
+
+
+
+
