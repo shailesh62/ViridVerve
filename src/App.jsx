@@ -4,7 +4,7 @@ import Blog from './components/BlogComponents/Blog';
 import BlogDetail from './components/BlogComponents/BlogDetail';
 import HomePage from './components/HomePageComponents/HomePage';
 import Layout from './components/Layout';
-import Shop from './components/ShopComponents/Shop';
+import Shop from './components/shop/SustainableClothing';
 
 function App() {
   return (
