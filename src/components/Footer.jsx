@@ -4,15 +4,15 @@ import { TfiFacebook } from "react-icons/tfi";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaPinterestP } from "react-icons/fa";
 
-const footerClasses = "mt-10  bg-card bg-[#C4A885] text-card-foreground container  p-8 text-white mx-auto";
+const footerClasses = "mt-10  bg-card bg-[#C4A885] text-card-foreground  p-8 text-white";
 const linkClasses = "text-muted-foreground   hover:text-muted";
 
 const Footer = () => {
   return (
     <footer className={footerClasses}>
-     
-      <div className="container  mx-auto pt-10 pb-11 px-4  flex flex-col md:flex-row ">
-        
+
+      <div className="  mx-auto pt-10 pb-11 px-4  flex flex-col md:flex-row ">
+
         <FooterSection title="THE ECO WARRIOR">
           <ul className="mt-4  space-y-5">
             <li><a href="#" className={linkClasses}>About Us</a></li>
@@ -40,9 +40,9 @@ const Footer = () => {
             <button type="submit" className=" text-primary-foreground  hover:bg-[#ecc4a2] bg-[#E9CDB5] p-2 rounded w-full">JOIN</button>
           </form>
           <div className="flex space-x-4 mt-4">
-            <a href="#" className={linkClasses}><TfiFacebook/></a>
-            <a href="#" className={linkClasses}><IoLogoInstagram size={20}/></a>
-            <a href="#" className={linkClasses}><FaPinterestP size ={20}/></a>
+            <a href="#" className={linkClasses}><TfiFacebook /></a>
+            <a href="#" className={linkClasses}><IoLogoInstagram size={20} /></a>
+            <a href="#" className={linkClasses}><FaPinterestP size={20} /></a>
           </div>
         </FooterSection>
       </div>
@@ -51,12 +51,12 @@ const Footer = () => {
 };
 
 const FooterSection = ({ title, children }) => {
-  if(title==="Join The Eco Warrior Tribe!"){
+  if (title === "Join The Eco Warrior Tribe!") {
     return (
       <div className="flex-1 mb-8 md:mb-0">
-      <h2 className="text-2xl font-extrabold mb-8">{title}</h2>
-      {children}
-    </div>
+        <h2 className="text-2xl font-extrabold mb-8">{title}</h2>
+        {children}
+      </div>
     );
   }
   return (
