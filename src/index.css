@@ -49,9 +49,9 @@
     background-color: rgba(0, 0, 0, 0.75);
   }
   
-  .bg-opacity-75 {
+  /* .bg-opacity-75 {
     background-opacity: 0.75;
-  }
+  } */
   
   .max-w-full {
     max-width: 100%;
@@ -101,3 +101,20 @@
     padding: 0.5rem;
   }
   
+  /* navigation */
+  .mobile-menu-button {
+    display: none;
+  }
+
+  .el:hover{
+    color: #baa287;
+  }
+  
+  @media (max-width: 767px) {
+    .mobile-menu-button {
+      display: block;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }  
