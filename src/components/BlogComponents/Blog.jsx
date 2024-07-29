@@ -1,20 +1,38 @@
+// src/pages/Blog.js
 import React from "react";
 import BlogCard from "./BlogCard";
+import BlogData from "./BlogData";
 
 const Blog = () => {
   return (
-    <div className="flex flex-wrap p-8 gap-10 justify-center ">
-      <BlogCard id={1} src={"https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"The Future of Renewable Energy: Trends and Innovations"} />
-      <BlogCard id={2} src={"https://images.pexels.com/photos/2990610/pexels-photo-2990610.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"Climate Change: Mitigation Strategies and Adaptation Measures"} />
-      <BlogCard id={3} src={"https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"Sustainable Agriculture: Practices for a Greener Future"} />
-      <BlogCard id={4} src={"https://images.pexels.com/photos/4889869/pexels-photo-4889869.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"The Importance of Water Conservation: Strategies for Sustainable Water Management"} />
-      <BlogCard id={5} src={"https://images.pexels.com/photos/3174350/pexels-photo-3174350.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"Circular Economy: Reducing Waste and Promoting Resource Efficiency"} />
-      <BlogCard id={6} src={"https://images.pexels.com/photos/15480518/pexels-photo-15480518/free-photo-of-city-buildings-in-green-trees.jpeg?auto=compress&cs=tinysrgb&w=600"} title={"Building Sustainable Cities: The Role of Urban Planning and Smart Technologies"} />
+    <div className="pb-8 ">
+      <div className="heading flex justify-center bg-gray-100 mb-20">
+        <div className="relative h-80 w-full overflow-hidden object-cover">
+          <img
+            className="w-full h-full object-cover"
+            src="https://plus.unsplash.com/premium_photo-1699784081597-6eb85d79f04d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-5xl font-bold text-white">
+              Blogs
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-wrap gap-10 justify-center">
+        {BlogData.map(({ id, image, title, description }) => (
+          <BlogCard
+            key={id}
+            id={id}
+            src={image}
+            title={title}
+            description={description}
+          />
+        ))}
+      </div>
     </div>
   );
 };
 
 export default Blog;
-
-
-
