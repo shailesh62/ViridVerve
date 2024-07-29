@@ -9,7 +9,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App mb-16">
       <nav className="bg-gray-800 text-white shadow-lg fixed top-0 w-full z-20">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between">
