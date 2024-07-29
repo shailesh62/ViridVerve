@@ -17,7 +17,7 @@ function App() {
               {/* Logo */}
               <div>
                 <a href="/" className="flex items-center py-5 px-2 text-white">
-                  <img src={"https://cdn-icons-png.freepik.com/512/17479/17479113.png"} alt="Logo" className="h-8 w-8 mr-2" />
+                  <img src={"https://cdn-icons-png.freepik.com/512/15714/15714783.png"} alt="Logo" className="h-8 w-8 mr-2" />
                   <span className="font-bold text-xl">Brand</span>
                 </a>
               </div>

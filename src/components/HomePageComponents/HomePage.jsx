@@ -1,19 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Route} from 'react-router-dom';
 
 const HomePage = () => {
     return (
-        <div>
-            <Link to="/blog">
-                <button className='btn btn-neutral m-10'>Blog Page</button>
-            </Link>
-            <Link to="/shop">
-                <button className='btn btn-neutral m-10'>Shop Page</button>
-            </Link>
-            <Link to="/about">
-                <button className='btn btn-neutral m-10'>About</button>
-            </Link>
-        </div>
+        <>
+            <h1 className='mt-2 border-2'>Home Page</h1>
+        </>
     )
 }
 
