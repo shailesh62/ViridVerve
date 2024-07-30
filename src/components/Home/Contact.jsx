@@ -2,8 +2,8 @@ const Contact = () => {
     return (
         <>
             <div className="flex justify-center bg-gray-100">
-                <div className="relative h-80 w-full overflow-hidden object-cover">
-                    <img className="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1671221672495-a2b455e70bb9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cover" />
+                <div className="relative calc-h w-full overflow-hidden object-cover">
+                    <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1722072977408-0865d9cc3904?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cover" />
                     <div className="absolute inset-0 flex items-center justify-center">
                         <h1 className="text-5xl md:text-7xl font-bold text-white">Contact Us</h1>
                     </div>

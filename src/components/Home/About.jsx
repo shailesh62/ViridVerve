@@ -2,8 +2,8 @@ const About = ({ imageSrc, title, description }) => {
     return (
         <>
             <div className="flex justify-center bg-gray-100">
-                <div className="relative h-80 w-full overflow-hidden object-cover">
-                    <img className="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1699784081597-6eb85d79f04d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cover" />
+                <div className="relative calc-h w-full overflow-hidden object-cover">
+                    <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1613&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cover" />
                     <div className="absolute inset-0 flex items-center justify-center">
                         <h1 className="text-5xl font-bold text-white">About Us</h1>
                     </div>

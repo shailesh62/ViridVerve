@@ -11,9 +11,9 @@ const SustainableClothing = () => {
   };
 
   return (
-    <div className="container mx-auto bg-black">
+    <div className="">
       <div
-        className="relative bg-cover bg-center h-80 flex items-center justify-center"
+        className="relative bg-cover bg-center calc-h flex items-center justify-center"
         style={{ backgroundImage: `url("https://images.pexels.com/photos/4347654/pexels-photo-4347654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")` }}
       >
         <h1 className="text-5xl font-bold text-white z-10">Sustainable Clothing</h1>

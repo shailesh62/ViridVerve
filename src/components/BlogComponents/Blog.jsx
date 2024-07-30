@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <div className="pb-8 ">
       <div className="heading flex justify-center bg-gray-100 mb-20">
-        <div className="relative h-80 w-full overflow-hidden object-cover">
+        <div className="relative calc-h w-full overflow-hidden object-cover">
           <img
             className="w-full h-full object-cover"
             src="https://plus.unsplash.com/premium_photo-1699784081597-6eb85d79f04d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

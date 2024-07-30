@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { FaSearch } from 'react-icons/fa';
+import React, { useState } from "react";
+import { FaSearch } from "react-icons/fa";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prev) => !prev);
   };
 
   return (
@@ -16,20 +16,50 @@ function App() {
             <div className="flex space-x-4">
               {/* Logo */}
               <div>
-                <a href="/" className="flex items-center py-5 px-2 text-white">
-                  <img src={"https://cdn-icons-png.freepik.com/512/15714/15714783.png"} alt="Logo" className="h-8 w-8 mr-2" />
-                  <span className="font-bold text-xl">Brand</span>
+                <a href="/" className="flex items-center py-5 px-2 text-white gap-4 justify-center">
+                  <p className="text-6xl">
+                    V
+                  </p>
+                  <div>
+                    <h2 className="font-bold text-xl">ViridVerve</h2>
+                    <p className="text-sm">Vibrant Living Sustainable Choices</p>
+                  </div>
                 </a>
               </div>
             </div>
-            
+
             {/* Primary Nav */}
             <div className="hidden md:flex items-center space-x-1">
-              <a href="/" className="el py-5 px-3 text-white transition duration-300">Home</a>
-              <a href="/about" className="el py-5 px-3 text-white transition duration-300">About</a>
-              <a href="/contact" className="el py-5 px-3 text-white transition duration-300">Contact Us</a>
-              <a href="/shop" className="el py-5 px-3 text-white transition duration-300">Shop</a>
-              <a href="/blog" className="el py-5 px-3 text-white transition duration-300">Blog</a>
+              <a
+                href="/"
+                className="el py-5 px-3 text-white transition duration-300"
+              >
+                Home
+              </a>
+              <a
+                href="/about"
+                className="el py-5 px-3 text-white transition duration-300"
+              >
+                About
+              </a>
+              <a
+                href="/contact"
+                className="el py-5 px-3 text-white transition duration-300"
+              >
+                Contact Us
+              </a>
+              <a
+                href="/shop"
+                className="el py-5 px-3 text-white transition duration-300"
+              >
+                Shop
+              </a>
+              <a
+                href="/blog"
+                className="el py-5 px-3 text-white transition duration-300"
+              >
+                Blog
+              </a>
               <button className="el py-5 px-3 text-white transition duration-300">
                 <FaSearch />
               </button>
@@ -58,15 +88,44 @@ function App() {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`mobile-menu ${isOpen ? 'block' : 'hidden'} md:hidden`}>
-          <a href="/" className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">Home</a>
-          <a href="/about" className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">About</a>
-          <a href="/contact" className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">Contact Us</a>
-          <a href="/shop" className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">Shop</a>
-          <a href="/blog" className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">Blog</a>
-          <button className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">
-            <FaSearch />
-          </button>
+        <div className={"mobile-menu md:hidden"}>
+          {isOpen && (
+            <>
+              <a
+                href="/"
+                className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
+              >
+                Home
+              </a>
+              <a
+                href="/about"
+                className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
+              >
+                About
+              </a>
+              <a
+                href="/contact"
+                className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
+              >
+                Contact Us
+              </a>
+              <a
+                href="/shop"
+                className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
+              >
+                Shop
+              </a>
+              <a
+                href="/blog"
+                className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
+              >
+                Blog
+              </a>
+              <button className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">
+                <FaSearch />
+              </button>
+            </>
+          )}
         </div>
       </nav>
     </div>
