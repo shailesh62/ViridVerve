@@ -1,13 +1,3 @@
-import React from 'react'
-
-const sharedClasses = {
-    input: 'w-full p-2 border border-border rounded',
-    card: 'bg-card p-6 rounded-lg shadow-md',
-    textMuted: 'text-muted-foreground',
-    primaryText: 'text-primary',
-    secondaryText: 'text-secondary',
-    button: 'bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded',
-}
 const Contact = () => {
     return (
         <>

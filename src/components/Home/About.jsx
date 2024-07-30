@@ -16,7 +16,7 @@ const About = ({ imageSrc, title, description }) => {
                     </div>
                     <div className="md:w-1/2 w-full flex flex-col justify-center items-center p-6 bg-gray-100">
                         <h1 className="text-2xl md:text-3xl font-bold mb-4">Our Mission</h1>
-                        <p className="text-base md:text-lg text-center">Hey there – thanks for taking the time to learn more about The Eco Warrior! I’m Danielle, former fashion buyer, continuous wanderluster and aspiring Eco Warrior! Yes, aspiring, but more about that later! We aspire to be the online hub where you can find inspiration and purchase easy alternatives to reduce your waste and live a more sustainable lifestyle.</p>
+                        <p className="text-base md:text-lg text-center">"Hey there – thanks for taking the time to learn more about The Eco Warrior! I’m Amrit, a former fashion buyer and aspiring Eco Warrior! We aim to be your online hub for inspiration and easy alternatives to reduce waste and live sustainably.<br/>In a country as diverse and vibrant as India, our mission is to make sustainable living accessible to everyone. Whether you're in bustling Mumbai or serene Kerala, we believe that small changes can make a big impact. Join us on this journey towards a greener, cleaner India!"</p>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row mt-48 mb-20 h-96 w-11/12 md:w-3/4 max-w-4xl bg-gray-100 overflow-hidden">
