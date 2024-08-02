@@ -13,7 +13,7 @@ const Footer = () => {
 
       <div className="  mx-auto pt-10 pb-11 px-4  flex flex-col md:flex-row ">
 
-        <FooterSection title="THE ECO WARRIOR">
+        <FooterSection title="VIRID-VERVE">
           <ul className="mt-4  space-y-5">
             <li><a href="#" className={linkClasses}>About Us</a></li>
             <li><a href="#" className={linkClasses}>Careers</a></li>
@@ -28,11 +28,10 @@ const Footer = () => {
             <li><a href="#" className={linkClasses}>Delivery & Shipping</a></li>
             <li><a href="#" className={linkClasses}>Refunds & Returns</a></li>
             <li><a href="#" className={linkClasses}>Wholesale</a></li>
-            <li><a href="#" className={linkClasses}>Covid-19 Update</a></li>
           </ul>
         </FooterSection>
-        <FooterSection title="Join The Eco Warrior Tribe!">
-          <p className="mt-2 space-y-5 text-muted-foreground">We're all in this together; join the journey for inspiration on reducing your waste and receive 10% off to set you on the right path!</p>
+        <FooterSection title="Join The Virid Verve Tribe!">
+          <p className="mt-2 space-y-5 text-muted-foreground">We're all in this together ; join the journey for inspiration on reducing your waste and receive 10% off to set you on the right path!</p>
           <form className="mt-4 ">
             <input type="text" placeholder="First Name" className="border border-border bg-white rounded p-2 w-full my-2" required />
             <input type="text" placeholder="Last Name" className="border border-border bg-white rounded p-2 w-full my-2" required />
