@@ -122,3 +122,16 @@
 .calc-h { 
     height: calc(100vh - 4.5rem);
 }
+
+/* carousel */
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: inline-block;
+  width: 200%;
+  animation: marquee 20s linear infinite;
+}
