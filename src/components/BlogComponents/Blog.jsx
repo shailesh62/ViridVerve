@@ -5,7 +5,7 @@ import BlogData from "./BlogData";
 
 const Blog = () => {
   return (
-    <div className="pb-8 ">
+    <div className="pb-8 mt-2">
       <div className="heading flex justify-center bg-gray-100 mb-20">
         <div className="relative calc-h w-full overflow-hidden object-cover">
           <img

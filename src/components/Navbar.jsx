@@ -15,7 +15,6 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between">
             <div className="flex space-x-4">
-              {/* Logo */}
               <div>
                 <Link to="/" className="flex items-center py-5 px-2 text-white gap-4 justify-center">
                   <p className="text-6xl">

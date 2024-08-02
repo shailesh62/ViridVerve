@@ -4,14 +4,14 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { FaPinterestP } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-const footerClasses = "mt-10  bg-card bg-[#C4A885] text-card-foreground  p-8 text-white";
+const footerClasses = "bg-card bg-[#C4A885] text-card-foreground  p-8 text-white";
 const linkClasses = "text-muted-foreground   hover:text-muted";
 
 const Footer = () => {
   return (
     <footer className={footerClasses}>
 
-      <div className="  mx-auto pt-10 pb-11 px-4  flex flex-col md:flex-row ">
+      <div className="mx-auto pt-10 pb-11 px-4 flex flex-col md:flex-row ">
 
         <FooterSection title="VIRID-VERVE">
           <ul className="mt-4  space-y-5">

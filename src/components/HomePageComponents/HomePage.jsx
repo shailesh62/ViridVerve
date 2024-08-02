@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import Carousel from "./Carousel";
 import Brand from "./Brand";
+import BestSeller from "./BestSeller";
+import Review from "./Review";
+import Faq from "./Faq";
 
 const HomePage = () => {
 
@@ -9,6 +12,9 @@ const HomePage = () => {
     <>
       <Carousel />
       <Brand />
+      <BestSeller />
+      <Review />
+      <Faq />
     </>
   );
 };

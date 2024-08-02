@@ -2,12 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.btn, .buy-now{
+.btn, .buy-now, .bestSellar{
     background-color: #baa287;
     border: 0;
     color: white;
 }
-.btn:hover, .buy-now:hover{
+.btn:hover, .buy-now:hover, .bestSellar:hover{
     background-color: #744231;
     color: white;
 }

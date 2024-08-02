@@ -1,7 +1,7 @@
 const About = ({ imageSrc, title, description }) => {
     return (
         <>
-            <div className="flex justify-center bg-gray-100">
+            <div className="flex justify-center bg-gray-100 mt-2">
                 <div className="relative calc-h w-full overflow-hidden object-cover">
                     <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1613&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cover" />
                     <div className="absolute inset-0 flex items-center justify-center">
@@ -9,7 +9,7 @@ const About = ({ imageSrc, title, description }) => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col mb-10 pt-48 items-center justify-center  w-auto  bg-gray-100">
+            <div className="flex flex-col pt-48 items-center justify-center  w-auto  bg-gray-100">
                 <div className="flex flex-col   md:flex-row  w-11/12 md:w-3/4 max-w-4xl bg-gray-100 overflow-hidden">
                     <div className="md:w-1/2 w-full overflow-hidden mr-10  bg-gray-100">
                         <img src="https://s3.images-iherb.com/blog/uploads/natural-and-organic-pet-products-and-their-benefits-large.jpg" alt="Our Mission" className="w-full h-full object-cover " />
