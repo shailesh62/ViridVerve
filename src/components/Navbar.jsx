@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ function App() {
             <div className="flex space-x-4">
               {/* Logo */}
               <div>
-                <a href="/" className="flex items-center py-5 px-2 text-white gap-4 justify-center">
+                <Link to="/" className="flex items-center py-5 px-2 text-white gap-4 justify-center">
                   <p className="text-6xl">
                     V
                   </p>
@@ -24,42 +25,42 @@ function App() {
                     <h2 className="font-bold text-xl">ViridVerve</h2>
                     <p className="text-sm">Vibrant Living Sustainable Choices</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
 
             {/* Primary Nav */}
             <div className="hidden md:flex items-center space-x-1">
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="el py-5 px-3 text-white transition duration-300"
               >
                 Home
-              </a>
-              <a
-                href="/about"
+              </Link>
+              <Link
+                to="/about"
                 className="el py-5 px-3 text-white transition duration-300"
               >
                 About
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="el py-5 px-3 text-white transition duration-300"
               >
                 Contact Us
-              </a>
-              <a
-                href="/shop"
+              </Link>
+              <Link
+                to="/shop"
                 className="el py-5 px-3 text-white transition duration-300"
               >
                 Shop
-              </a>
-              <a
-                href="/blog"
+              </Link>
+              <Link
+                to="/blog"
                 className="el py-5 px-3 text-white transition duration-300"
               >
                 Blog
-              </a>
+              </Link>
               <button className="el py-5 px-3 text-white transition duration-300">
                 <FaSearch />
               </button>
@@ -91,36 +92,36 @@ function App() {
         <div className={"mobile-menu md:hidden"}>
           {isOpen && (
             <>
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
               >
                 Home
-              </a>
-              <a
-                href="/about"
+              </Link>
+              <Link
+                to="/about"
                 className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
               >
                 About
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
               >
                 Contact Us
-              </a>
-              <a
-                href="/shop"
+              </Link>
+              <Link
+                to="/shop"
                 className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
               >
                 Shop
-              </a>
-              <a
-                href="/blog"
+              </Link>
+              <Link
+                to="/blog"
                 className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300"
               >
                 Blog
-              </a>
+              </Link>
               <button className="block py-2 px-4 text-sm text-white hover:bg-gray-700 transition duration-300">
                 <FaSearch />
               </button>
