@@ -135,3 +135,19 @@
   width: 200%;
   animation: marquee 20s linear infinite;
 }
+
+/* letter animation */
+.word-animation h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}

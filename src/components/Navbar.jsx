@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
+// import Typewriter from './LetterAnimation';
+import { ReactTyped } from "react-typed";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +24,7 @@ function App() {
                   </p>
                   <div>
                     <h2 className="font-bold text-xl">ViridVerve</h2>
-                    <p className="text-sm">Vibrant Living Sustainable Choices</p>
+                    <p className="text-sm"><ReactTyped strings={["Vibrant Living Sustainable Choices"]} typeSpeed={150} loop /></p>
                   </div>
                 </Link>
               </div>
